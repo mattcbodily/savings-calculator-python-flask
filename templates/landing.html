@@ -14,4 +14,11 @@
         <input name='quantity' required/>
         <input type='submit'/>
     </form>
+    {% if weekly_savings %}
+        <section>
+            <p>{{weekly_savings}}</p>
+            <p>{{monthly_savings}}</p>
+            <p>{{yearly_savings}}</p>
+        </section>
+    {% endif %}
 </section>
