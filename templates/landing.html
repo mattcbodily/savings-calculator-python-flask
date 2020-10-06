@@ -1,0 +1,17 @@
+<!doctype html>
+<title>Savings Calculator</title>
+<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+<header>
+    <h1>Savings Calculator</h1>
+</header>
+<section>
+    <form method='post'>
+        <label for='product'>Product Name</label>
+        <input name='product' required/>
+        <label for='price'>Product Price</label>
+        <input name='price' required/>
+        <label for='quantity'>Quantity</label>
+        <input name='quantity' required/>
+        <input type='submit'/>
+    </form>
+</section>
